@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.section-one {
+    background-color: #1f2937;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    border: 4px solid brown;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
