@@ -4,17 +4,18 @@ body {
 }
 
 div {
-    border: 4px solid brown;
+    /* border: 4px solid brown; */
 }
 
-.header-section {
+.header-section, .header-links {
     background-color: #1f2937;
     display: flex;
 }
 
 .links {
-    width: 1600px;
+    width: 1300px;
     display: flex;
+    margin: auto;
 }
 
 .white-main-text {
@@ -23,6 +24,14 @@ div {
 
 #header-text {
     font-size: 24px;
+    flex-grow: 1;
+    font-weight: 600;
+    align-self: center;
 }
 
 
+.gray-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 30px;
+}
