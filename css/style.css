@@ -124,3 +124,8 @@ body {
     font-weight: 700;
     align-self: flex-end;
 }
+
+#call-to-action {
+    background-color: #3882f6;
+    margin: 30px auto;
+}
