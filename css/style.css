@@ -3,9 +3,9 @@ body {
     height: 100vh;
 }
 
-div {
-    /* border: 2px solid brown; */
-}
+/* div {
+    /* border: 2px solid brown; 
+} */
 
 .header-section, .header-links, .hero-section {
     background-color: #1f2937;
@@ -74,4 +74,20 @@ div {
     color: #1f2937;
     width: 450px;
     margin: auto;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.black-subtext {
+    color: #1f2937;
+    font-size: 24px;
+}
+
+#img-row {
+    justify-content: space-between;
+    width: 1000px;
 }
