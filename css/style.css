@@ -91,3 +91,7 @@ body {
     justify-content: space-between;
     width: 1000px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+}
