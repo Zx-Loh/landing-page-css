@@ -4,7 +4,7 @@ body {
 }
 
 div {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
 }
 
 .header-section, .header-links, .hero-section {
@@ -39,16 +39,31 @@ div {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    margin-top: 48px;
     margin-bottom: 0px;
+    margin: 1px;
 }
 
 #text-container {
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 400px;
 }
 
 #hero-subtext {
     margin: 0;
+}
+
+.button {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+#hero-section {
+    justify-content: space-between;
+    padding: 90px;
 }
