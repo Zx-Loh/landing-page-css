@@ -3,10 +3,6 @@ body {
     height: 100vh;
 }
 
-/* div {
-     border: 2px solid brown; 
-} */
-
 .header-section, .header-links, .hero-section {
     background-color: #1f2937;
     display: flex;
@@ -17,6 +13,7 @@ body {
     display: flex;
     margin: auto;
     padding: 30px;
+    align-items: center;
 }
 
 .white-main-text {
@@ -127,18 +124,26 @@ body {
 
 #call-to-action {
     background-color: #3882f6;
-    margin: 30px auto;
+    margin: 130px auto;
     justify-content: space-around;
     color: #E5E7EB;
     align-items: center;
+    border-radius: 15px;
 }
 
 #sign-up {
-    border: 4px solid white;
+    border: 3px solid white;
 }
 
 #action-header {
     font-weight: 900;
     margin-bottom: -10px;
     font-size: 36px;
+}
+
+#footer {
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 110px;
 }
